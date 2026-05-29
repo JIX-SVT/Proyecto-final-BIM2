@@ -9,8 +9,11 @@ public class Conexionn {
     
 
     private static final String URL = "jdbc:mysql://localhost:3306/hotel_ddl_in4cm?serverTimezone=UTC";
-    private static final String USER = "admin";
-    private static final String PASSWORD = "admin"; 
+private static final String USER = "root";
+//Cambiar esta variable con la contraseña de su 
+// servidor local de MySQL para que el módulo de habitaciones conecte.
+// =========================================================================
+private static final String PASSWORD = "CONTRASEÑA_DE_SU_SERVER";
 
     private Conexionn() {
         try {

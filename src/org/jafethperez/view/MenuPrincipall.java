@@ -14,7 +14,7 @@ public class MenuPrincipall {
             System.out.println("==============================================");
             System.out.println("1. Entrar a Habitaciones");
             System.out.println("2. Entrar a Clientes(proximamente)");
-            System.out.println("2. Salir del Sistema");
+            System.out.println("3. Salir del Sistema");
             System.out.print("Seleccione una opcion: ");
             opcion = scanner.nextInt();
 
