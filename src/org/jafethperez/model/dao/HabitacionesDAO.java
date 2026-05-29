@@ -1,6 +1,11 @@
-
 package org.jafethperez.model.dao;
 
-public interface HabitacionesDAO {
+import org.jafethperez.model.Habitaciones;
+
+/**
+ *
+ * @author user
+ */
+public interface HabitacionesDAO extends CRUD<Habitaciones, Integer>{
     
 }
