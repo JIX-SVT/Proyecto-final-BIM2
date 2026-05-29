@@ -1,12 +1,11 @@
 package org.jafethperez.model.dao;
 
+import java.util.List;
 
-import org.jafethperez.model.Habitaciones;
-
-// Al poner <Habitaciones, Integer>, Java automáticamente sabe que:
-// Donde decía 'T' ahora usará 'Habitaciones' y donde decía 'ID' ahora usará 'Integer'
-public interface HabitacionesDAO extends CRUD<Habitaciones, Integer> {
-    
-    // Aquí puedes agregar métodos específicos si en el futuro los necesitas,
-    // pero por ahora, al heredar de CRUD, ya incluye los 5 métodos obligatorios.
+public interface CRUD<T, ID> {
+    boolean insertar(T objeto);
+    List<T> listar();
+    T buscar(ID id);
+    boolean actualizar(T objeto);
+    boolean eliminar(ID id);
 }
