@@ -8,9 +8,8 @@ import org.jafethperez.view.MenuPrincipall;
 public class PrincipalMenu {
 
     public static void main(String[] args) {
-    System.out.println("Hola mundo!");
+    System.out.println("Examen Taller");
         MenuPrincipall menu = new MenuPrincipall();
         menu.arrancarSistema();
-    }
-    
+    }   
 }
